@@ -12,28 +12,13 @@
       href="./assets/images/favicon-32x32.png"
     />
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              lightRed: "hsl(0, 100%, 67%)",
-              orangeYellow: "hsl(39, 100%, 56%)",
-              greenTeal: "hsl(166, 100%, 37%)",
-              cobaltBlue: "hsl(234, 85%, 45%)",
-              lighSlateBlue: "hsl(252, 100%, 67%)",
-              lightRoyal: "hsl(241, 81%, 54%)",
-              violetBlue: "hsla(256, 72%, 46%, 1)",
-              persianBlue: "hsla(241, 72%, 46%, 0)",
-              paleBlue: "hsl(221, 100%, 96%)",
-              lightLavander: "hsl(241, 100%, 89%)",
-              darkGreyBlue: "hsl(224, 30%, 27%)"
-            },
-          },
-        },
-      };
-    </script>
+    <!-- fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Results summary component</title>
 
@@ -47,8 +32,52 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
+
+    <link rel="stylesheet" href="./css/input.css" />
   </head>
+
   <body>
+    <div>
+      <div>
+        <h3>Your Result</h3>
+        <div>
+          <h1>76</h1>
+          <p>of 100</p>
+        </div>
+        <h2>Great</h2>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+      <div>
+        <h3>Summary</h3>
+        <div>
+          <img src="./assets/images/icon-reaction.svg" alt="" />
+          <p>Reaction</p>
+          <p><strong>80</strong>/100</p>
+        </div>
+        <div>
+          <img src="./assets/images/icon-memory.svg" alt="" />
+          <p>Memory</p>
+          <p><strong>92</strong>/100</p>
+        </div>
+        <div>
+          <img src="./assets/images/icon-verbal.svg" alt="" />
+          <p>Verbal</p>
+          <p><strong>61</strong>/100</p>
+        </div>
+        <div>
+          <img src="./assets/images/icon-visual.svg" alt="" />
+          <p>Visual</p>
+          <p><strong>72</strong>/100</p>
+        </div>
+        <div>
+          <button>Continue</button>
+        </div>
+      </div>
+    </div>
+
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
