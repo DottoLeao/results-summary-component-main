@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset css */
+
+:root {
+  --light-red: hsl(0, 100%, 67%);
+  --orange: hsl(39, 100%, 56%);
+  --green: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+  --light-purple: hsl(252, 100%, 67%);
+  --royal-blue: hsl(241, 81%, 54%);
+  --purple: hsla(256, 72%, 46%, 1);
+  --black: hsla(241, 72%, 46%, 0);
+  --white: hsl(0, 0%, 100%);
+  --pale: hsl(221, 100%, 96%);
+  --light-blue: hsl(241, 100%, 89%);
+  --dark-grey: hsl(224, 30%, 27%);
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.head {
+  background: linear-gradient(
+    to bottom,
+    var(--light-purple),
+    var(--royal-blue)
+  );
+  padding: 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.head h3 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: var(--light-blue);
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.ball {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, var(--purple), var(--black));
+  width: 9rem;
+  height: 9rem;
+  border-radius: 99px;
+  margin-bottom: 2rem;
+}
+
+.ball h1 {
+  color: var(--white);
+  font-weight: 800;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.ball p {
+  color: var(--light-blue);
+}
+
+.head h2 {
+  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.head p {
+  text-align: center;
+  color: var(--light-blue);
+  /* margin-bottom: 1rem; */
+}
