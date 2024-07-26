@@ -203,8 +203,89 @@ body {
   letter-spacing: 1px;
 }
 
-.head p {
+.head-text {
   text-align: center;
   color: var(--light-blue);
-  /* margin-bottom: 1rem; */
+  margin-bottom: 1rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.main h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.main-item {
+  display: flex;
+  height: 2.5rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  margin-bottom: 1.3rem;
+  padding: 0.5rem 0;
+}
+
+.main-item p:nth-of-type(2) {
+  margin-left: auto;
+  padding-right: 1rem;
+}
+
+.main-item img {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.reaction {
+  background-color: hsl(0, 100%, 67%, 5%);
+}
+
+.memory {
+  background-color: hsl(39, 100%, 56%, 5%);
+}
+
+.verbal {
+  background-color: hsl(166, 100%, 37%, 5%);
+}
+
+.visual {
+  background-color: hsl(234, 85%, 45%, 5%);
+}
+
+.reaction-color {
+  color: hsl(0, 100%, 67%);
+  font-weight: 600;
+}
+
+.memory-color {
+  color: hsl(39, 100%, 56%);
+  font-weight: 600;
+}
+
+.verbal-color {
+  color: hsl(166, 100%, 37%);
+  font-weight: 600;
+}
+
+.visual-color {
+  color: hsl(234, 85%, 45%);
+  font-weight: 600;
+}
+
+strong {
+  font-weight: 600;
+}
+
+button {
+  border: none;
+  background-color: var(--dark-grey);
+  width: 100%;
+  padding: 1rem;
+  border-radius: 2rem;
+  color: white;
+  font-weight: 600;
 }
