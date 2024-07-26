@@ -292,9 +292,15 @@ button {
   padding: 1rem;
   border-radius: 2rem;
   color: white;
-  font-weight: 600;
   font-size: 1.1rem;
-  /* letter-spacing: 0.5px; */
+}
+
+button:hover {
+  background: linear-gradient(
+    to bottom,
+    var(--light-purple),
+    var(--royal-blue)
+  );
 }
 
 .mb {
