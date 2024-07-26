@@ -306,3 +306,26 @@ button:hover {
 .mb {
   margin-bottom: 1rem;
 }
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content {
+    display: flex;
+    width: 700px;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 5px #888888;
+  }
+
+  .head {
+    width: 50%;
+  }
+
+  .main {
+    width: 50%;
+  }
+}
