@@ -225,7 +225,7 @@ body {
   display: flex;
   height: 2.5rem;
   align-items: center;
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
   margin-bottom: 1.3rem;
   padding: 0.5rem 0;
 }
@@ -280,6 +280,11 @@ strong {
   font-weight: 600;
 }
 
+span {
+  color: hsl(224, 30%, 27%, 50%);
+  font-weight: 700;
+}
+
 button {
   border: none;
   background-color: var(--dark-grey);
@@ -288,4 +293,10 @@ button {
   border-radius: 2rem;
   color: white;
   font-weight: 600;
+  font-size: 1.1rem;
+  /* letter-spacing: 0.5px; */
+}
+
+.mb {
+  margin-bottom: 1rem;
 }
