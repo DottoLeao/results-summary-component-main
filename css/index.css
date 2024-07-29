@@ -315,17 +315,23 @@ button:hover {
   }
 
   .content {
+    margin-top: 4rem;
     display: flex;
     width: 700px;
     border-radius: 2rem;
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 5px 5px 10px hsl(241, 100%, 89%);
   }
 
   .head {
     width: 50%;
+    border-radius: 2rem;
   }
 
   .main {
     width: 50%;
+  }
+
+  .attribution {
+    margin-top: 3rem;
   }
 }
